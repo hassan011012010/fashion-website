@@ -1,0 +1,512 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Fashion</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/animation.css"/>
+    <link rel="stylesheet" href="Font-Awesome-master/css/all.min.css">
+    <link rel="stylesheet" href="css/CSS.css"/>
+</head>
+<body>  
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/sign.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+    
+    
+    
+     <!--start nav-->
+    <nav class="navbar navbar-expand-lg fixed-top ">
+        <div class="container">
+            <h1 class="m-0 mr-2 p-2">fashion</h1>
+            <button class="navbar-toggler" style=" border: 1px solid #e41b17" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars navbar-toggler-icon" style="font-size: 15px; color: #e41b17"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home"><span class="links">home</span><span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#men"><span class="links">men</span><span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#women"><span class="links">women</span><span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#contact"><span class="links">contact us</span><span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModalLong1"><span class="links">sign up</span><span class="sr-only">(current)</span></a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--end nav-->
+    
+    
+    <!--start Crousel-->
+    <div id="home" class="bd-example">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="background: url(img/2.jpg) ; background-size: cover ">
+                    <div class="text textleft position-absolute">
+                        <h1 >Welcom <i class="aninmatetranslate love far fa-heart"></i><br><span>on fashion page</span></h1><p>There are the best international fashion</p>
+                  </div>
+                </div>
+                <div class="carousel-item" style="background: url(img/1.jpg) ; background-size: cover ">
+                    
+                    <div class="text position-absolute">
+                        <h1 >You have the best<br> fashion in <br>your hands  <i class="aninmatetranslate fas fa-hand-holding-heart"></i></h1><p>clothesو shoesو Bags and Makeup</p>
+                  </div>
+                </div>
+                <div class="carousel-item" style="background: url(img/3.jpg) ; background-size: cover ">
+                    <div class="text textleft position-absolute">
+                        <h1 >The best  <br> men's suits <br>are here  <i class="aninmatetranslate love far fa-heart"></i></h1>
+                  </div>
+                </div>
+                
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+               <i class="fas fa-chevron-left carousel-control-prev-icon" aria-hidden="true"></i>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <i class="fas fa-chevron-right carousel-control-next-icon" aria-hidden="true"></i>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!--End Crousel-->
+    
+    <!-- start signup-->
+    <div class="modal fade" id="exampleModalLong1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="signup" >
+                    <button type="button" style="color: white; padding: 5px 10px;"class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="feild1 text-center">
+                        <div class="hd1">
+                            <i class="fas fa-user-plus fa-2x"></i>
+                            <h1>SignUp</h1>
+                            <p class="text-capitalize lead">hello in our page you can Signup from her</p>
+                        </div>
+                        <div class="container text-left">
+                            <form class="needs-validation" novalidate>
+                                <div class="form-row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="validationCustom01">First name</label>
+                                        <input type="text" class="form-control" id="validationCustom01" placeholder="First name" required>
+                                        <div class="valid-feedback">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="validationCustom02">Last name</label>
+                                        <input type="text" class="form-control" id="validationCustom02" placeholder="Last name"  required>
+                                        <div class="valid-feedback">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 mb-3">
+                                        <label for="validationCustomUsername">Email</label>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" id="validationCustomUsername" placeholder="Enter A New Email" aria-describedby="inputGroupPrepend" required>
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="inputGroupPrepend">@yahoo.com</span>
+                                            </div>
+                                            <div class="invalid-feedback text-center">
+                                                Please Enter A Valid Email.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="validationCustom06">Your Password</label>
+                                        <input type="password" class="form-control" id="validationCustom06" placeholder="Your Password" required>
+                                        <div class="invalid-feedback text-center">
+                                                Please Enter A Password atleast 8 char
+                                        </div>
+                                        <div class="valid-feedback">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="validationCustom05">Confirm Password</label>
+                                        <input type="password" class="form-control" id="validationCustom05" placeholder="Confirm Password"  required>
+                                        <div class="invalid-feedback text-center">
+                                               Please Enter A Same Password
+                                        </div>
+                                        <div class="valid-feedback">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="inputState" for="validationCustom03">Sex</label>
+                                        <select id="inputState" class="form-control" id="validationCustom03" >
+                                          <option>Male</option>
+                                          <option>Female</option>
+                                        </select>
+                                    </div>
+                                </div>
+                              <button class="btn btn-block" type="submit">SignUp</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end signup-->
+    
+    
+    
+    <!-- start product-->
+  
+    <div class="product position-relative">
+        
+        <div class="container">
+            <h1 class="text-center">We hope you like <span>our service</span> .</h1>
+            <h6 class="pl-4 pb-2 mb-4">fashion <span>random</span>/</h6>
+        </div>
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class=" maincard position-relative wow bounceleft" data-wow-offset="290">
+                        <div class="headcard">
+                            <i class="aninmatetranslate love far fa-heart position-absolute"></i>
+                            <div class="cardimg">
+                                <img src="img/6.jpg" alt="shose">
+                            </div>
+                        </div>
+                        <div class="bodycard pl-1 pr-1">
+                            <div class="nameprod text-center">
+                                <h3>Shirt</h3>
+                            </div>
+                            <div class="price text-center">
+                                <h5>$199.65</h5>
+                            </div>
+                        </div>
+                        <div class="footercard position-absolute">
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="maincard position-relative wow bouncedown1" data-wow-offset="290">
+                        <div class="headcard">
+                            <i class="aninmatetranslate love far fa-heart position-absolute"></i>
+                            <div class="cardimg">
+                                <img src="img/8.jpg" alt="shose">
+                            </div>
+                        </div>
+                        <div class="bodycard pl-1 pr-1">
+                            <div class="nameprod text-center">
+                                <h3>Shirt</h3>
+                            </div>
+                            <div class="price text-center">
+                                <h5>$48.25</h5>
+                            </div>
+                        </div>
+                        <div class="footercard position-absolute">
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="maincard position-relative wow bounceup1" data-wow-offset="290">
+                        <div class="headcard">
+                            <i class="aninmatetranslate love far fa-heart position-absolute"></i>
+                            <div class="cardimg">
+                                <img src="img/9.jpg" alt="shose">
+                            </div>
+                        </div>
+                        <div class="bodycard pl-1 pr-1">
+                            <div class="nameprod text-center">
+                                <h3>dress</h3>
+                            </div>
+                            <div class="price text-center">
+                                <h5>$89.65</h5>
+                            </div>
+                        </div>
+                        <div class="footercard position-absolute">
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="maincard position-relative wow bounceright" data-wow-offset="290">
+                        <div class="headcard">
+                            <i class="aninmatetranslate love far fa-heart position-absolute"></i>
+                            <div class="cardimg">
+                                <img src="img/4.jpg" alt="shose">
+                            </div>
+                        </div>
+                        <div class="bodycard pl-1 pr-1">
+                            <div class="nameprod text-center">
+                                <h3>Jacket</h3>
+                            </div>
+                            <div class="price text-center">
+                                <h5>$45.78</h5>
+                            </div>
+                        </div>
+                        <div class="footercard position-absolute">
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="men" class="container">
+                <h6 class="pl-4 pb-2 mb-4">fashion <span>men</span>/</h6>
+            </div>
+            <div class="row mb-4">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class=" maincard position-relative wow bounceleft" data-wow-offset="290">
+                        <div class="headcard">
+                            <i class="aninmatetranslate love far fa-heart position-absolute"></i>
+                            <div class="cardimg">
+                                <img src="img/7.jpg" alt="shose">
+                            </div>
+                        </div>
+                        <div class="bodycard pl-1 pr-1">
+                            <div class="nameprod text-center">
+                                <h3>Glasses</h3>
+                            </div>
+                            <div class="price text-center">
+                                <h5>$199.65</h5>
+                            </div>
+                        </div>
+                        <div class="footercard position-absolute">
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="maincard position-relative wow bouncedown1" data-wow-offset="290">
+                        <div class="headcard">
+                            <i class="aninmatetranslate love far fa-heart position-absolute"></i>
+                            <div class="cardimg">
+                                <img src="img/6.jpg" alt="shose">
+                            </div>
+                        </div>
+                        <div class="bodycard pl-1 pr-1">
+                            <div class="nameprod text-center">
+                                <h3>Shirt</h3>
+                            </div>
+                            <div class="price text-center">
+                                <h5>$48.25</h5>
+                            </div>
+                        </div>
+                        <div class="footercard position-absolute">
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="maincard position-relative wow bounceup1" data-wow-offset="290">
+                        <div class="headcard">
+                            <i class="aninmatetranslate love far fa-heart position-absolute"></i>
+                            <div class="cardimg">
+                                <img src="img/4.jpg" alt="shose">
+                            </div>
+                        </div>
+                        <div class="bodycard pl-1 pr-1">
+                            <div class="nameprod text-center">
+                                <h3>jacket</h3>
+                            </div>
+                            <div class="price text-center">
+                                <h5>$89.65</h5>
+                            </div>
+                        </div>
+                        <div class="footercard position-absolute">
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="maincard position-relative wow bounceright" data-wow-offset="290">
+                        <div class="headcard">
+                            <i class="aninmatetranslate love far fa-heart position-absolute"></i>
+                            <div class="cardimg">
+                                <img src="img/10.jpg" alt="shose">
+                            </div>
+                        </div>
+                        <div class="bodycard pl-1 pr-1">
+                            <div class="nameprod text-center">
+                                <h3>Jacket</h3>
+                            </div>
+                            <div class="price text-center">
+                                <h5>$45.78</h5>
+                            </div>
+                        </div>
+                        <div class="footercard position-absolute">
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="women" class="container">
+                <h6 class="pl-4 pb-2 mb-4">fashion <span>women</span>/</h6>
+            </div>
+            <div class="row mb-4">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class=" maincard position-relative wow bounceleft" data-wow-offset="290">
+                        <div class="headcard">
+                            <i class="aninmatetranslate love far fa-heart position-absolute"></i>
+                            <div class="cardimg">
+                                <img src="img/12.jpg" alt="shose">
+                            </div>
+                        </div>
+                        <div class="bodycard pl-1 pr-1">
+                            <div class="nameprod text-center">
+                                <h3>Glasses</h3>
+                            </div>
+                            <div class="price text-center">
+                                <h5>$199.65</h5>
+                            </div>
+                        </div>
+                        <div class="footercard position-absolute">
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="maincard position-relative wow bouncedown1" data-wow-offset="290">
+                        <div class="headcard">
+                            <i class="aninmatetranslate love far fa-heart position-absolute"></i>
+                            <div class="cardimg">
+                                <img src="img/8.jpg" alt="shose">
+                            </div>
+                        </div>
+                        <div class="bodycard pl-1 pr-1">
+                            <div class="nameprod text-center">
+                                <h3>Shirt</h3>
+                            </div>
+                            <div class="price text-center">
+                                <h5>$48.25</h5>
+                            </div>
+                        </div>
+                        <div class="footercard position-absolute">
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="maincard position-relative wow bounceup1" data-wow-offset="290">
+                        <div class="headcard">
+                            <i class="aninmatetranslate love far fa-heart position-absolute"></i>
+                            <div class="cardimg">
+                                <img src="img/5.jpg" alt="shose">
+                            </div>
+                        </div>
+                        <div class="bodycard pl-1 pr-1">
+                            <div class="nameprod text-center">
+                                <h3>jacket</h3>
+                            </div>
+                            <div class="price text-center">
+                                <h5>$89.65</h5>
+                            </div>
+                        </div>
+                        <div class="footercard position-absolute">
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="maincard position-relative wow bounceright" data-wow-offset="290">
+                        <div class="headcard">
+                            <i class="aninmatetranslate love far fa-heart position-absolute"></i>
+                            <div class="cardimg">
+                                <img src="img/9.jpg" alt="shose">
+                            </div>
+                        </div>
+                        <div class="bodycard pl-1 pr-1">
+                            <div class="nameprod text-center">
+                                <h3>Jacket</h3>
+                            </div>
+                            <div class="price text-center">
+                                <h5>$45.78</h5>
+                            </div>
+                        </div>
+                        <div class="footercard position-absolute">
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end product-->
+
+    <!--Start contactus -->
+            
+                <div id="contact" class="contact_us" style="background: url(img/11.jpg)  fixed; background-size: cover" >
+                    <div class="opac">
+                    <div class="container">
+                   
+                    </button>
+                    <div class="feild text-center">
+                        <div class="hd position-relative wow bouncedown" data-wow-offset="270">
+                            <i class="fas fa-headset fa-3x"></i>
+                            <h1>Contact Us</h1>
+                            <p class="text-capitalize lead">hello in our page you can contact With us from her</p>
+                        </div>
+                        <div class="container">
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-8 wow bounceleft" data-wow-offset="90">
+                                       <div class="mb-3 ">
+                                            <input type="text" class=" form-control" id="validationCustom02" placeholder="Your Name"  required>
+                                            <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
+                                       <div class="mb-3">
+                                            <input type="text" class="form-control" id="validationCustom02" placeholder="Your Phone"  required>
+                                            <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 wow bounceright" data-wow-offset="90">
+                                        <div class="form-group">
+                                            <textarea class="form-control" placeholder="Your massage !!"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                 <button class="btn btn-danger position-relative btn-lg btn-block wow bounceup" data-wow-offset="50">Send</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+       </div>
+    <!--end contactus -->
+    
+    <div class="copy fixed-bottoms  container-fluid">
+        <div class="icon mb-2 text-center">
+            <a href="https://www.facebook.com" target="_blank">
+                 <i class="fab fa-facebook wow animaterotete"></i>
+             </a>
+             <a href="https://www.instagram.com" target="_blank">
+                 <i class="fab fa-instagram wow animaterotete"></i>
+             </a>
+             <a href="https://www.youtube.com" target="_blank">
+                 <i class="fab fa-youtube wow animaterotete"></i>
+             </a>
+             <a href="https://www.twitter.com" target="_blank">
+                 <i class="fab fa-twitter wow animaterotete"></i>
+             </a>
+       </div>
+        <h1 class="m-0 lead text-center">&copy;Copyright 2019 Designed by <a href="https://hassan-ashraf.netlify.com/" target="_blank">Hassan Ashraf</a></h1>
+        
+    </div>
+</body>
+</html>

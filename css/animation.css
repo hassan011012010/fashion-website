@@ -1,0 +1,271 @@
+/***** start animatin header*****/
+.animaterotete{
+    animation:  animaterotete 1s ease-in-out forwards
+}
+@keyframes animaterotete{
+    from{
+        transform: rotate(0deg);
+        
+    }
+    to{
+       transform: rotate(720deg);
+        
+    }
+}
+.opacity{
+    animation: opacity 2s ease-in-out forwards
+}
+
+@keyframes opacity{
+    from{
+        opacity: 0;
+        
+    }
+    to{
+       opacity: 1;
+        
+    }
+}
+/***** end animatin header*****/
+/***** start animatin carousel*****/
+@keyframes view{
+    from{
+        bottom: -100px;
+        opacity: 0
+    }
+    to{
+        bottom: 20px;
+        opacity: 1
+    }
+}
+.views{
+    animation: view 1s ease-in-out forwards
+}
+/***** end animation carousel ******/
+/***** start animation navbar ******/
+@keyframes aninmatetranslate{
+    0%{
+        opacity: 0;
+        transform: scale(0,0)
+    }
+    50%{
+       opacity: 1;
+        transform: scale(1.2,1.2)
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1,1)
+    }
+}
+.aninmatetranslate{
+     animation: aninmatetranslate 1s ease-in-out forwards
+}
+
+@keyframes list{
+    0%{
+        top: 0
+    }
+    20%{
+        top: -6px
+    }
+    40%{
+        top: 6px 
+    }
+    60%{
+        top: -3px
+    }
+    80%{
+        top: 3px
+    }
+    100%{
+        top: 0
+    }
+}
+.list{
+    animation: list 1s ease-in forwards
+}
+/***** end animation navbar******/
+/***** start animation about******/
+@keyframes bouncedownchild{
+    from{
+        top:  -50px;
+        background: none;
+        
+        opacity: 0
+    }
+    to{
+        top: 0px;
+        background: white;
+        
+        opacity: 1
+    }
+}
+.bouncedownchild{
+    animation: bouncedownchild 1s ease-in-out 
+}
+/***** end animation about******/
+/****/
+@keyframes ht{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%
+    }
+}
+.ht{
+    animation: ht 2s ease-in-out forwards
+}
+
+
+@keyframes cs{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 95%
+    }
+}
+.css{
+    animation: cs 1.5s ease-in-out forwards
+}
+
+.bootstrap{
+    animation: boot 1.5s ease-in-out forwards
+}
+@keyframes boot{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 97%
+    }
+}
+
+.java{
+    animation: js 1.5s ease-in-out forwards
+}
+@keyframes js{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 85%
+    }
+}
+
+.photoshop{
+    animation: photoshop 1.5s ease-in-out forwards
+}
+@keyframes photoshop{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 70%
+    }
+}
+/*****/
+
+/****/
+@keyframes bounceleft{
+    0%{
+        left: -400px;
+        opacity: 0
+    }
+    50%{
+        left: 30px;
+        opacity: .5
+    }
+    75%{
+        left: -25px;
+        opacity: .75
+    }
+    100%{
+        left: 0px;
+        opacity: 1
+    }
+}
+.bounceleft{
+    animation: bounceleft 1s ease-in-out ;
+}
+
+@keyframes bounceright{
+    0%{
+        right: -400px;
+        opacity: 0
+    }
+    50%{
+        right: 30px;
+        opacity: .5
+    }
+    75%{
+        right: -25px;
+        opacity: .75
+    }
+    100%{
+        right: 0px;
+        opacity: 1
+    }
+}
+.bounceright{
+    animation: bounceright 1s ease-in-out ;
+}
+
+@keyframes bouncedown{
+    0%{
+        top: -100px;
+        opacity: 0
+    }
+
+    100%{
+        top: 0;
+        opacity: 1;
+    }
+}
+.bouncedown{
+    animation: bouncedown 1s ease-in-out ;
+}
+@keyframes bouncedown1{
+    0%{
+        top: -100%;
+        opacity: 0
+    }
+
+    100%{
+        top: 0;
+        opacity: 1;
+    }
+}
+.bouncedown1{
+    animation: bouncedown1 1s ease-in-out ;
+}
+@keyframes bounceup{
+    0%{
+        bottom: -50px;
+        opacity: 0
+    }
+    
+    100%{
+        bottom: 0;
+        opacity: 1
+    }
+}
+.bounceup{
+    animation: bounceup 1s ease-in-out ;
+}
+@keyframes bounceup1{
+    0%{
+        bottom: -100%;
+        opacity: 0
+    }
+    
+    100%{
+        bottom: 0;
+        opacity: 1
+    }
+}
+.bounceup1{
+    animation: bounceup1 1s ease-in-out ;
+}
+/****/

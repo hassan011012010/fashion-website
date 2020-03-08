@@ -1,0 +1,392 @@
+/****** start basic *******/
+body{
+
+    height: 2000px
+}
+/****** basic *******/
+i{
+    font-weight: 900
+}
+button:focus{
+    outline: 0;
+    box-shadow: none !important;
+}
+/****** end basic *******/
+
+
+/* start navbar*/
+.navbar{
+    padding: 0;
+    background: rgba(0,0,0,.7)
+    
+}
+.navbar:hover{
+    background: rgba(0,0,0,1);
+    transition: background 1s ease
+}
+.navbar .container h1{
+    color: white;
+    text-transform: capitalize;
+    position: relative;
+    font-family: Bradley Hand ITC;
+    height: 100%;
+    background: linear-gradient(to right,#ff8a00,#e52e71);
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer
+    
+}
+
+.navbar .container .navbar-collapse .navbar-nav .nav-item a{
+    color: white;
+    padding: 5px 15px;
+    background: linear-gradient(to right,#ff8a0000,#e52e7100);
+    font-size: 20px;
+    font-family: Chelsea Market,cursive;
+     
+     margin-right: 5px;
+     text-transform: capitalize;
+     position: relative;
+    -webkit-backface-visibility: hidden;
+}
+.navbar .container .navbar-collapse .navbar-nav .nav-item a .links{
+    color: white;
+    z-index: 3;
+    position: relative
+}
+.navbar .container .navbar-collapse .navbar-nav .nav-item a:After{
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right,#ff8a00,#e52e71);
+    opacity: 0;
+    border-radius: 20px;
+    z-index: 2;
+    transition: all .5s ease-in-out;
+}
+@keyframes list{
+    0%{
+        top: 0
+    }
+    20%{
+        top: -6px
+    }
+    40%{
+        top: 6px 
+    }
+    60%{
+        top: -3px
+    }
+    80%{
+        top: 3px
+    }
+    100%{
+        top: 0
+    }
+}
+.navbar .container .navbar-collapse .navbar-nav .nav-item a:hover{
+      
+
+    animation: list .5s ease-in-out forwards;
+    
+    transition: all .2s ease-in
+}
+.navbar .container .navbar-collapse .navbar-nav .nav-item a:hover:After{
+    opacity: 1;
+}
+
+/*
+.navbar .container h1:after{
+    content: '';
+    width: 100%;
+    height: 3px;
+    background:  #e41b17;
+    position: absolute;
+    bottom: 0;
+    left: 0
+}
+.navbar .container h1:before{
+    content: '';
+    width: 100%;
+    height: 3px;
+    background:  #e41b17;
+    position: absolute;
+    top: 0;
+    left: 0
+}*/
+
+
+
+
+/* End navbar*/
+
+
+
+
+
+/* start carousel*/
+.bd-example{
+    height: 625px;
+}
+.bd-example .carousel{
+    height: 100%;
+}
+.bd-example .carousel .carousel-inner{
+    height: 100%
+}
+.bd-example .carousel .carousel-inner .carousel-item{
+    height: 100%
+}
+.bd-example .carousel .carousel-inner .carousel-item{
+    width: 100%
+}
+.bd-example .carousel .carousel-inner .carousel-item .text{
+     right: 50px;
+    top: 100px;
+    text-transform: capitalize;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.1803921568627451)
+}
+.bd-example .carousel .carousel-inner .carousel-item .textleft{
+    right: auto;
+    left: 50px;
+    top: 100px;
+}
+.bd-example .carousel .carousel-inner .carousel-item p{
+    background: linear-gradient(to right,#ff8a00,#e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Chelsea Market,cursive;
+    text-align: center;
+}
+.bd-example .carousel .carousel-inner .carousel-item h1 {
+    right: 50px;
+    top: 100px;
+    font-size: 50px;
+    color:  rgba(228, 27, 23, .7);
+    font-family: Chelsea Market,cursive;
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    
+}
+.bd-example .carousel .carousel-inner .carousel-item .r{
+    right: auto;
+    left: 50px
+}
+.carousel-caption .lead{
+    color: #18DFE2;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 10px;
+    background: rgba(12, 59, 63, 0.5);
+    border-radius: 10px
+}
+.carousel-control-prev ,.carousel-control-next{
+    width: 0
+}
+.carousel-control-prev .carousel-control-prev-icon{
+    position: absolute;
+    left: 0;
+    width: 31px;
+    height: 32px;
+    color: white;
+    font-size: 31px;
+    background: #e41b17;
+    
+}
+.carousel-control-next .carousel-control-next-icon{
+    position: absolute;
+    right: 0;
+    width: 31px;
+    height: 32px;
+    color: white;
+    font-size: 31px;
+    background: #e41b17;
+}
+/* end carousel*/
+
+
+
+
+/*Start dropdown*/
+.dropdown-item:hover{
+    cursor: pointer
+}
+a:not([href]):not([tabindex]){
+    color: white
+}
+a:not([href]):not([tabindex]):hover{
+    color: white
+}
+
+/*end dropdown*/
+
+
+.contact_us .opac{
+    background: rgba(0,0,0,.7);
+    height: 100%;
+    overflow: hidden;
+    padding: 20px
+}
+/*Start cotact_us*/
+
+.feild{
+    min-height: 352px;
+    font-family: Chelsea Market,cursive
+}
+.feild textarea{
+    min-height: 91px;
+}
+.hd{
+    padding: 10px 0;
+    margin-bottom: 20px;
+    color: white;
+    
+}
+.modal-dialog{
+    max-width: 800px;
+}
+a:not([href]):not([tabindex]){
+    color: white
+}
+/*End cotact_us*/
+
+
+
+/*start signup*/
+.signup{
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+.signup .close span{
+    color: white
+}
+.signup button{
+    background: black;
+    border: none;
+    outline: none;
+    color: white
+}
+.signup button:hover{
+    color: white
+}
+.feild1 h1{
+    font-size: 30px;
+}
+.feild1 i{
+    margin-left:  52px;
+}
+.hd1{
+    padding: 10px 0;
+    margin-bottom: 20px;
+    background: black;
+    color: white
+}
+/*end signup*/
+
+/********* start product ******/
+.product{
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    text-transform: capitalize;
+    font-family: Chelsea Market,cursive
+}
+.product .container h1 span , .product .container h6 span {
+    background: linear-gradient(to right,#ff8a00,#e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.product h6{
+    border-bottom: .5px solid rgba(0, 0, 0, 0.16)
+}
+.product .container .maincard{
+    height: 450px;
+    width: 100%;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.8);
+}
+.product .container .maincard:hover{
+    transform: scale(1.1,1.1);
+    transition: all .5s 
+}
+.product .container .maincard .headcard{
+    height: 70%;
+    width: 100%
+}
+.product .container .maincard .headcard i{
+    font-size: 25px;
+    top: 5px;
+    right: 5px;
+    background: linear-gradient(to right,#ff8a00,#e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer
+}
+.product .container .maincard .headcard .cardimg{
+    height: 100%;
+    width: 100%;
+    overflow: hidden
+}
+.product .container .maincard:hover .price{
+    transform: rotate(360deg);
+    transition: all .3s ease-in
+}
+.product .container .maincard .headcard .cardimg img{
+    width: 100%
+}
+.product .container .maincard .bodycard .price h5{
+    color: rgba(20, 28, 37, 0.5)
+}
+.product .container .maincard .bodycard .note{
+    overflow: hidden;
+    
+}
+.product .container .maincard .footercard{
+    width: 100%;
+    bottom: 0
+}
+.product .container .maincard .footercard button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    width: 100%;
+    
+}
+.product .container .maincard .footercard button:hover{
+    opacity: .7;
+    transition: all .2s 
+}
+/********* end product ******/
+/***start copyright*******/
+.copy{
+    background: black;
+    color: rgba(250,250,250,.6);
+   
+    padding: 10px
+    
+}
+.copy a{
+    color: #e41b1099;
+    transition: color .3s ease
+}
+.copy .icon a{
+    color: #ffffff78;
+    font-size: 25px;
+    transition:all .7s;
+    margin-right: 15px;
+}
+.copy a:hover{
+    color: #e41b17;
+    text-decoration: none
+}
+/***end copyright*******/
